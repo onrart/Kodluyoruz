@@ -1,9 +1,6 @@
 import random
 import math
 
-
-
-
 def euclideanDistance(point1: tuple, point2: tuple) -> float:
     distance = math.sqrt(math.pow(abs(point1[0]-point2[0]) ,2)+math.pow(abs(point1[1]-point2[1]) ,2))
     return distance
